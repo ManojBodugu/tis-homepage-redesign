@@ -1,32 +1,104 @@
-# React + TypeScript + Vite
+# TIS Homepage Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive and animated homepage redesign for **Tula's International School (TIS)**, created as part of a Frontend Developer assignment.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://tis-homepage-redesign-psi.vercel.app
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/ManojBodugu/tis-homepage-redesign
 
-## Expanding the Oxlint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Modern and responsive homepage design
+- Smooth scroll-based animations and reveal effects
+- Interactive navigation and call-to-action sections
+- Responsive layout for desktop, tablet and mobile devices
+- Clean typography and visual hierarchy
+- Smooth transitions and micro-interactions
+- Accessible semantic HTML structure
+- Optimized component-based React architecture
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## 🛠️ Tech Stack
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- React.js
+- TypeScript
+- Vite
+- CSS
+- Framer Motion
+- ESLint / Oxlint
+
+## 📁 Project Structure
+
+```text
+tis-homepage-redesign/
+├── public/
+├── src/
+│   ├── App.tsx
+│   ├── App.css
+│   ├── main.tsx
+│   └── ...
+├── index.html
+├── package.json
+├── tsconfig.json
+└── README.md
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ManojBodugu/tis-homepage-redesign.git
+
+### 2. Navigate to the project
+
+```bash
+cd tis-homepage-redesign
+
+### 3. Install dependencies
+
+```bash
+npm install
+
+### 4. Start the development server
+
+```bash
+npm run dev
+
+## 🏗️ Build
+
+To create a production build:
+
+```bash
+npm run build
+
+## 🎨 Design Approach
+
+The redesign focuses on creating a premium educational website experience with:
+
+- Strong visual hierarchy
+- Clear calls to action
+- Smooth motion and transitions
+- Responsive layouts
+- Modern spacing and typography
+- Engaging sections that encourage users to explore the school
+
+## 📱 Responsive Design
+
+The homepage is designed to adapt across:
+
+- Desktop
+- Tablet
+- Mobile
+
+## 🚀 Deployment
+
+The project is deployed using **Vercel** and is automatically updated from the GitHub `main` branch.
+
+## 👨‍💻 Author
+
+**Manoj Bodugu**
+
+Frontend Developer
